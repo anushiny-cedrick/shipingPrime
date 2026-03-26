@@ -1,6 +1,6 @@
 // middleware/auth.js
-const jwt      = require("jsonwebtoken");
-const supabase = require("../lib/supabase");
+const jwt = require("jsonwebtoken");
+const supabase = require("./lib/supabase");
 
 async function requireAuth(req, res, next) {
   const header = req.headers.authorization;
