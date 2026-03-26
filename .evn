@@ -8,7 +8,7 @@
 # ── SUPABASE ─────────────────────────────────────────────────
 # From: Supabase Dashboard → Project Settings → API
 SUPABASE_URL=https://yukkhfwgccdckkdnlyru.supabase.co
-SUPABASE_SERVICE_KEY=your-service-role-secret-key-here
+SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl1a2toZndnY2NkY2trZG5seXJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0NTg2ODUsImV4cCI6MjA5MDAzNDY4NX0.eFO0v_IIwnH1ix-1MjR9uqmQV6zWj-gFk8RFHGp0ZVY
 
 # ── JWT ───────────────────────────────────────────────────────
 # Generate a secret: node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
